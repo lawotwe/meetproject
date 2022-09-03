@@ -1,0 +1,150 @@
+
+/* global */
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Red Hat Display';
+}
+
+#group{
+    color: #28283d; 
+    font-size: 64px; 
+    font-weight: 800;
+}
+
+#meet{
+    font-size: 15px;
+    color: #87879d;
+}
+
+
+#button {
+    background:#4d96a9;
+    color: #fafafa; 
+    text-decoration: none;    
+}
+
+#button:hover{
+    background-color: #8fe3f9;
+    color:#f9f9f9 ;
+}
+
+#but {
+    background:#855fb1;
+    color: #fafafa; 
+    text-decoration: none;    
+}
+
+
+#but:hover{
+    background-color: #d9b8ff;
+    color: #f9f9f9;
+}
+
+.line{
+    border:0.3px solid rgb(219, 218, 218);
+    border-radius:50%;
+    background:rgba(0,0,0,0);
+    color:white;
+    height:70px;
+    text-align:center;
+    line-height:50px;
+}
+
+.circle{
+  border:1px solid rgb(219, 218, 218);
+  border-radius:50%;
+  background:rgba(0,0,0,0);
+  width:50px;
+  height:50px;
+  text-align:center;
+  line-height:50px;
+}
+
+#line-margin{
+    margin-top: 100px;
+}
+
+#line-position{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#circle-position{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#section3{
+    width: 480px; 
+    margin-top: 80px;
+}
+
+
+.text-uppercase{
+    letter-spacing: 4px;
+    font-size: 14px;
+    color:#4d96a9;
+}
+
+#smarttxt{
+    font-size: 40px; 
+    color: #28283d; 
+    font-weight: 800;
+}
+
+.fw-normal{
+    color:#87879d;
+}
+
+#background{
+    background-image:url('../assets/desktop/image-footer.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center; 
+    position: relative; 
+    outline: #4d96a9;
+    
+}
+
+#image{
+    
+    background-color: rgba(77,150,168,0.9);
+}
+
+#experience{
+    font-size: 40px; 
+    font-weight: 700; 
+    color: #fafafa; 
+    margin-top: 140px;
+    margin-bottom: 30%;
+}
+
+#middletxt{
+    color: #fafafa; 
+    font-weight: 200; 
+    margin-top: 150px;
+}
+
+#download {
+    background:#855fb1;
+    color: #fafafa; 
+    text-decoration: none;  
+    margin-bottom: 10%;  
+    margin-top: 150px;
+
+}
+
+
+#download:hover{
+    background-color: #d9b8ff;
+    color: #f9f9f9;
+}
+
+/* @media only screen and (min-width:850px){
+
+} */
+
